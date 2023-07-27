@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MySuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestRun_27thJune(failed)">
+    <classes>
+      <class name="testcases.LoginPageTestcases">
+        <methods>
+          <include name="Driver_Setup"/>
+          <include name="Check_NewUser_Button_Fuctionality_LoginPage"/>
+          <include name="tearDown"/>
+          <include name="Driver_Exit"/>
+        </methods>
+      </class> <!-- testcases.LoginPageTestcases -->
+      <class name="testcases.RegisterPageTestcases">
+        <methods>
+          <include name="Verify_UsernamePassword_Labels_RegisterPage"/>
+          <include name="Driver_Exit"/>
+          <include name="Driver_Setup"/>
+          <include name="Verify_Backtologin_text_dislayed_BacktologinButton"/>
+        </methods>
+      </class> <!-- testcases.RegisterPageTestcases -->
+    </classes>
+  </test> <!-- TestRun_27thJune(failed) -->
+</suite> <!-- Failed suite [MySuite] -->

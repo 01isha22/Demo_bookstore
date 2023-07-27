@@ -1,0 +1,5 @@
+testcases\Testcases_Jenkins.class
+testcases\LoginPageTestcases.class
+testcases\TestcaseswithDataProvider.class
+testcases\RegisterPageTestcases.class
+testcases\ProfilePageTestcases.class
